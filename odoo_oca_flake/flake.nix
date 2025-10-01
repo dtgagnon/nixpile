@@ -34,6 +34,8 @@
     server-ux = { url = "github:oca/server-ux"; flake = false; };
     timesheet = { url = "github:oca/timesheet"; flake = false; };
     web = { url = "github:oca/web"; flake = false; };
+
+    project-gantt = { url = "github:dtgagnon/odoo-project-ganttchart"; flake = false; };
   };
 
   outputs = { self, ... }@inputs: {
