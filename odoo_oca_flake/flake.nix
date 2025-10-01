@@ -35,7 +35,7 @@
     timesheet = { url = "github:oca/timesheet"; flake = false; };
     web = { url = "github:oca/web"; flake = false; };
 
-    project-gantt = { url = "github:dtgagnon/odoo-project-ganttchart"; flake = false; };
+    odoo_gantt = { url = "github:dtgagnon/odoo_gantt"; flake = false; };
   };
 
   outputs = { self, ... }@inputs: {
