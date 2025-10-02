@@ -39,6 +39,6 @@
   };
 
   outputs = { self, ... }@inputs: {
-    odoo_oca_repos = inputs;
+    odoo_addons = inputs;
   };
 }
