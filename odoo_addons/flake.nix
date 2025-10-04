@@ -32,10 +32,14 @@
     server-auth = { url = "github:oca/server-auth"; flake = false; };
     server-tools = { url = "github:oca/server-tools"; flake = false; };
     server-ux = { url = "github:oca/server-ux"; flake = false; };
+    stock-logistics-interfaces = { url = "github:oca/stock-logistics-interfaces"; flake = false; };
+    stock-logistics-request = { url = "github:oca/stock-logistics-request"; flake = false; };
+    stock-logistics-shopfloor = { url = "github:oca/stock-logistics-shopfloor"; flake = false; };
+    stock-logistics-tracking = { url = "github:oca/stock-logistics-tracking"; flake = false; };
+    stock-logistics-transport = { url = "github:oca/stock-logistics-transport"; flake = false; };
+    stock-logistics-warehouse = { url = "github:oca/stock-logistics-warehouse"; flake = false; };
     timesheet = { url = "github:oca/timesheet"; flake = false; };
     web = { url = "github:oca/web"; flake = false; };
-
-    odoo_gantt = { url = "github:dtgagnon/odoo_gantt"; flake = false; };
   };
 
   outputs = { self, ... }@inputs: {
