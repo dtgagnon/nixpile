@@ -40,9 +40,11 @@
     stock-logistics-warehouse = { url = "github:oca/stock-logistics-warehouse"; flake = false; };
     timesheet = { url = "github:oca/timesheet"; flake = false; };
     web = { url = "github:oca/web"; flake = false; };
+
+    e18 = { url = "git+ssh://git@github.com/dtgagnon/odooAdds?dir=odoo_e18/addons"; flake = false; };
   };
 
   outputs = { self, ... }@inputs: {
-    odoo_addons = inputs;
+    odoo-addons = inputs;
   };
 }
